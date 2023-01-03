@@ -1,0 +1,8 @@
+[package]
+name = "rocket_rate_limit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { git = "https://github.com/SergioBenitez/Rocket.git" }
+governor = "0.5.1"
